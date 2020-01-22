@@ -48,7 +48,7 @@ file_dict = Any[];
 images_set = file_dict[1]
 
 file_name = images_set[2]
-get_curves_from_img(file_name)
+get_curves_from_matrix(file_name)
 
 # ======================
 file_n = split(file_name, ".")[1]
@@ -93,7 +93,7 @@ end
 
 # ======================
 
-function get_curves_from_img(file_name)
+function get_curves_from_matrix(file_name)
   size_limiter = max_size_limiter
 
   file_n = split(file_name, ".")[1]
