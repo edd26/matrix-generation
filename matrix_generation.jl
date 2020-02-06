@@ -5,7 +5,7 @@ using Plots
    using Images
    using JLD
 
-julia_func_path = "../julia-functions/"
+julia_func_path = "./julia-functions/"
    include(julia_func_path*"MatrixToolbox.jl")
    include(julia_func_path*"MatrixProcessing.jl")
    include(julia_func_path*"BettiCurves.jl")
